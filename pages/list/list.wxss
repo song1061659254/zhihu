@@ -1,0 +1,43 @@
+.bg{
+    height: 300rpx;
+}
+
+.miaoshu{   
+    height: 80rpx;
+    width:100%;
+    font-size:13px;
+    text-align: center;
+    line-height: 80rpx;
+}
+
+.news-list{
+    box-sizing: border-box;
+    width:100%;
+}
+.news-list .n-item{
+    width:95%;
+    margin: 0 auto;
+    height: 100rpx;
+    position: relative;
+    border-bottom: 1px solid #999;
+    padding:10rpx 0;
+}
+.news-list .n-item .n-title{
+    width:80%;
+    height: 100%;
+    position: absolute;
+    top:15rpx;
+    left: 10rpx;
+    bottom:0;
+    font-family: "幼圆";
+    font-size:16px;
+}
+.news-list .n-item .n-image{
+    position: absolute;
+    top: 0;
+    right: 10rpx;
+    bottom: 0;
+    width:15%;
+    height: 100%;
+    
+}

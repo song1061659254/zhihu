@@ -1,0 +1,63 @@
+/*长评论*/
+.long{
+    width:100%;
+    height: auto;
+    margin: 0 auto;
+}
+.xinxi{
+    width:100%;
+    height: 120rpx;
+    padding:10rpx;
+    box-sizing:border-box; 
+}
+.img{
+    width:100rpx;
+    height: 100rpx;
+    float: left;
+    border-radius: 50%;
+}
+.img image{
+    width:100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+}
+.info{
+    float: right;
+    width:80%;
+    height: 100rpx;
+}
+.author{
+    width:100%;
+    height: 60rpx;
+    font-size: 14px;
+    line-height: 70rpx;
+    text-align: left;
+    font-family: "黑体";
+}
+.time{
+    width:100%;
+    height: 40rpx;
+    font-size: 10px;
+    line-height: 40rpx;
+    text-align: left;
+    font-family: "黑体";
+}
+.long .long-content{
+    width:100%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.list-item{
+    width:100%;
+    border-bottom:1px solid #555; 
+}
+
+.list-item .short-content{
+    padding:20rpx 0; 
+    width:90%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "方正大魏体";
+}

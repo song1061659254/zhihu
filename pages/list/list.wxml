@@ -1,0 +1,15 @@
+<view class="bg" style="background-size:cover;background-image:url({{data.background}})"></view>
+
+<view class="miaoshu">{{data.description}}</view>
+<!--<view wx:for="{{data.editors.name}}"></view>-->
+
+<view class="news-list">
+    <block wx:for="{{data.stories}}" wx:key="id">
+        <view class="n-item" data-title="{{item.title}}" data-id="{{item.id}}">
+            <view class="n-title">
+               <navigator url="/pages/show/show?id={{item.id}}&title={{item.title}}"> {{item.title}}</navigator>
+            </view>
+            <view class="n-image" style="background-size:cover;background-image:url({{item.image}})"></view>
+        </view>
+    </block>
+</view>

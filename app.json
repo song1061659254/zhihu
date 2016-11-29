@@ -1,0 +1,27 @@
+{
+    "pages":[
+        "pages/index/index",
+        "pages/show/show",
+        "pages/list/list",
+        "pages/comment/comment"
+    ],
+
+    "window":{
+        "navigationBarBackgroundColor": "#333333",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "知乎",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light",
+        "enablePullDownRefresh":true
+    },
+
+    "networkTimeout":{
+        "request":1000,
+        "connectSocket":1000,
+        "uploadFile":1000,
+        "downloadFile":1000
+    },
+
+    "debug":false
+
+}

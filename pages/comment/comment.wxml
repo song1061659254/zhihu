@@ -1,0 +1,27 @@
+
+<view class="long" wx:for="{{long}}"  wx:key="id">
+    <view class="xinxi">
+        <view class="img">
+            <image src="{{item.image}}"></image>
+        </view>
+
+        <view class="info">
+            <view class="author">{{item.author}}</view>
+            <!--<view class="time">{{item.time}}</view>-->
+        </view>
+    </view>
+    <view class="long-content">{{item.content}}</view>
+</view>
+
+<view class="list-item" wx:for="{{short}}" wx:key="id">
+    <view class="xinxi">
+        <view class="img">
+            <image src="{{item.image}}"></image>
+        </view>
+        <view class="info">
+            <view class="author">{{item.author}}</view>
+            <!--<view class="time">{{item.time}}</view>-->
+        </view>
+    </view>
+    <view class="short-content">{{item.content}}</view>
+</view>
